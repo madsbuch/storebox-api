@@ -8,7 +8,7 @@ This is an unofficial API to [Storebox.com](http://storebox.com).
 ```js
 var sb = require('storebox-api').Storebox("[obtained key]");
 
-test.cards(function(err, result){
+sb.cards(function(err, result){
     console.log("")
     console.log("Cards:")
     for (var i = result.length - 1; i >= 0; i--) {
