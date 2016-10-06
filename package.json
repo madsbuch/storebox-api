@@ -1,12 +1,12 @@
 {
-  "name": "storebox-nodejs-api",
+  "name": "storebox-api",
   "version": "1.0.0",
-  "description": "Storebox.dk api library",
+  "description": "Storebox.com api for nodejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Mads Buch <madspbuch@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "node-rest-client": "^2.0.1"
