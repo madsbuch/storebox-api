@@ -1,7 +1,7 @@
 var Client = require('node-rest-client').Client;
 var client = new Client();
 
-exports.storebox = function(cookie) {
+exports.Storebox = function(cookie) {
 
 	let makeRequest = function(path, callcback){
 

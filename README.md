@@ -3,7 +3,7 @@ This is an unofficial API to [Storebox.com](http://storebox.com).
 
 ## Usage
 
-    npm install --save 
+    npm install storebox-api --save 
 
 ```js
 var sb = require('node-rest-client').Storebox("[obtained key]");
