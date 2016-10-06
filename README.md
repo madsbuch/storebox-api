@@ -6,7 +6,7 @@ This is an unofficial API to [Storebox.com](http://storebox.com).
     npm install storebox-api --save 
 
 ```js
-var sb = require('node-rest-client').Storebox("[obtained key]");
+var sb = require('storebox-api').Storebox("[obtained key]");
 
 test.cards(function(err, result){
     console.log("")
