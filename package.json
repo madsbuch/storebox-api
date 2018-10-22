@@ -1,14 +1,24 @@
 {
   "name": "storebox-api",
-  "version": "1.0.1",
-  "description": "Storebox.com api for nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madsbuch/storebox-api"
   },
-  "author": "Mads Buch <madspbuch@gmail.com>",
+  "version": "2.0.0",
+  "description": "Storebox.com api for nodejs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Mads Buch <me@madsbuch.com>",
   "license": "ISC",
   "dependencies": {
-    "node-rest-client": "^2.0.1"
+    "@types/node": "^10.12.0",
+    "typed-rest-client": "^1.0.9"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.3"
   }
 }
